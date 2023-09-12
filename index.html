@@ -1,25 +1,226 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
+
 <head>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-
+    <link rel="shortcut icon" href="/img/d3_1.ico" type="image/x-icon">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diablo3Temp29</title>
+    <title>Projeto Diablo 3</title>
 </head>
+
 <body>
-    <header>
-        <div></div>
+
+
+    <header id="cabecalho">
+        <a href="https://us.diablo3.blizzard.com/pt-br/" target="_blank" rel="external">
+            <img class="logo" src="./img/Logo-blizzard-473px.png" alt="Logo-blizzard">
+        </a>
+
+        <nav>
+            <ul style="list-style: none;" class="menu">
+                <li><a href="#temporada29">INICIO</a></li>
+                <li><a href="#divsets">BUILDS</a></li>
+                <li><a href="#Bonusdetemp">BÔNUS DE TEMPORADA</a></li>
+                <!-- Adicione o id ao href para a rolagem automatica-->
+                <li><a href="#leveling">LEVELING</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div></div>
+        <div id="temporada29">
+            <h1>Temporada 29: Visões da Hostilidade</h1>
+            <img class="ft-temp28 responsive" src="/img/Entrada.png" alt="temporada29.png">
+            <h2>INÍCIO</h2>
+            <p class="dif">
+                Os Conjuntos de Classe disponíveis para completar certos capítulos na Jornada da Temporada, cortesia do
+                Presente de Haedrig, mudaram mais uma vez. Listamos os conjuntos disponíveis abaixo. Para quem é novo na
+                Seasons, veja como funciona:
+            </p>
+            <br>
+            <p>
+                Concluir os Capítulos 2, 3 e 4 da Jornada da Temporada irá recompensá-lo com três Presentes de Haedrig.
+                Cada Presente contém algumas peças de um dos seus Conjuntos de Classe. Os jogadores só podem desbloquear
+                um conjunto de classe dessa maneira por temporada entre Hardcore e Non-Hardcore, então escolha com
+                sabedoria!
+            </p>
+            <br>
+            <p>
+                O conjunto que você receberá depende da Classe do personagem que você está jogando ao abrir cada
+                Presente de Haedrig. Para coletar um conjunto de classe completo, você precisará abrir todos os três no
+                mesmo personagem.
+            </p>
+
+
+
+            <div id="divsets">
+                <h2>Sets da Temporada e link para o Maxroll</h2>
+                <img class="fotosets responsive" src="/img/sets2.png" alt="setsdatemp">
+                <ul class="setlist">
+
+                    <li><a href="https://maxroll.gg/d3/guides/sunwuko-wave-of-light-monk-guide" target="_blank">Monge - Vestes do Rei Macaco</a></li>
+
+                    <li><a href="https://maxroll.gg/d3/guides/shadow-impale-demon-hunter-guide" target="_blank">Caçador de
+                            Demônios - O Manto da Sombra</a></li>
+
+                    <li><a href="https://maxroll.gg/d3/guides/mote-earthquake-barbarian-guide" target="_blank">Bárbaro - Poder da Terra
+                            </a></li>
+
+                    <li><a href="https://maxroll.gg/d3/guides/firebird-flame-blades-wizard-guide" target="_blank">Arcanista - Veste do Pássaro de Fogo</a></li>
+
+                    <li><a href="https://maxroll.gg/d3/guides/akkhan-invoker-bombardment-crusader-guide" target="_blank">Cruzado - Espinhos do Invocador </a></li>
+
+                    <li><a href="https://maxroll.gg/d3/guides/angry-chicken-witch-doctor-guide"
+                            target="_blank">Feiticeiro - Trajes do Segador de Jade</a></li>
+
+                    <li><a href="https://maxroll.gg/d3/guides/inarius-death-nova-necromancer-guide"
+                            target="_blank">Necromante - Graça de Inárius</a></li>
+                            
+                </ul>
+            </div>
+            <h2>Builds</h2>
+            <div id="builds">
+
+                <div class="monge">
+                    <h3>MONGE</h3>
+                    <ul>
+                        <a href="https://maxroll.gg/d3/guides/inna-mystic-ally-monk-guide" target="_blank">
+                            <li>Inna</li>
+                        </a>
+                        <a href="https://maxroll.gg/d3/guides/support-zmonk-guide" target="_blank">
+                            <li>Zmonk</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="dh">
+                    <h3>DH</h3>
+                    <ul>
+                        <a href="https://maxroll.gg/d3/guides/ue-multishot-demon-hunter-guide" target="_blank">
+                            <li>EssênciaProfana</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="barbaro">
+                    <h3>BARBARO</h3>
+                    <ul>
+                        <a href="https://maxroll.gg/d3/guides/waste-set-ww-rend-barbarian-guide" target="_blank">
+                            <li>Retalhamento</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="necro">
+                    <h3>NECRO</h3>
+                    <ul>
+                        <a href="https://maxroll.gg/d3/guides/tragoul-death-nova-necromancer-guide" target="_blank">
+                            <li>Tragoul DeathNova</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+            <p><a class="hover" style="color:#FFD119;" href="https://maxroll.gg/d3/category/guides" target="_blank"
+                    rel="external">https://maxroll.gg/d3/category/guides</a></p>
+
+            <h2>Conquista sazonal</h2>
+
+            <ul class="conquistas">
+                <li><span>Coletar 50 milhões de Ouro fora da Câmara do Tesouro e do Santuário Interno</span></li>
+                <li><span>Alcançar a Fenda Maior de nível 55 jogando solo com os bônus de seis partes de algumas builds</span></li>
+                <li><span>Alcançar a Fenda Maior de Nível 45 Solo sem nenhum Item de Conjunto equipado</span></li>
+                <li>Completar os Atos I a V no nível máximo em menos de 1 hora</li>
+                <li>Dominar 8 das seguintes Masmorras de Conjunto</li>
+            </ul>
+
+            <h2>Atualização de builds</h2>
+
+            <ul class="att-builds">
+                <li>Cruzado: <a href="/img/mudaCruzado.png" target="_blank">Cinto do Justiceiro</a></li>
+                <li>Feiticeiro: <a href="./img/mudaFeiticeiro.png" target="_blank">FrangoLoco</a></li>
+
+            </ul>
+
+        </div>
+        <hr>
+        <div id="Bonusdetemp">
+            <h1>Visões da Hostilidade</h1>
+            <img class="fotosets responsive" src="/img/Portal_1.png" alt="portal.jpg">
+            <ul style="list-style: none;">
+                <br>
+                <p>
+                    Para a Temporada 29, visões da hostilidade, as maquinações nefastas do Inferno Ardente se infiltraram em cada canto de Santuário, deturpando a realidade. Essa alteração deu lugar às Visões da Hostilidade, dimensões de bolso com acesso pelas Fendas Diabólicas.
+                </p>
+                <br>
+                <img class="fotosets responsive" src="/img/altaresdesacrificio.jpg" alt="altaresdesacrificio">
+                <li>
+                    Os altares de sacrificio ficarão disponíveis para <strong>todas as temporadas</strong>!
+                </li>
+                <br>
+                <li>Link para montar seus bônus <a class="hover" style="color:#FFD119;font-size: 20px;"
+                        href="https://caleko.github.io/s28planner/" target="_blank"
+                        rel="external">https://caleko.github.io/s28planner</a></li>
+                <br>
+                <p>Build recomendada (1-12): <a class="hover" style="color:#FFD119;" target="_blank"
+                    rel="external" href="https://caleko.github.io/s28planner/index.html?s=gQEAAgAAAwAEAAUAAAAABgAACwcJAAwACAAKAAAAAA%3D%3D">https://caleko.github.io/s28planner/index.html</a>
+                </p>
+                <br>
+                
+                <div id="solo">
+                    <h2>MODO SOLO INDEPENDENTE</h2>
+                    <br>
+                    <img class="fotosets responsive" src="/img/solo.png" alt="foto do modo solo">
+                    <p>
+                        Matadores de demônios em busca de aumentar a intensidade de sua jornada por Santuário podem experimentar o novo modo Solo Independente. Nele, você terá que derrotar as hordas do Inferno por conta própria. Isso mesmo: é uma experiência de jogo solo. Uma versão Hardcore desse modo está disponível se você quiser aumentar ainda mais o desafio.
+                    </p>  
+                    <br>  
+                    <p>
+                        Decidimos trazer o Solo Independente, um modo de jogo solo com suporte oficial, para Diablo III. Sem os bônus de experiência de fazer de grupo ou a proteção dos outros jogadores enquanto você abre caminho pelas legiões demoníacas, esse modo vai pôr suas habilidades à prova. Para celebrar as conquistas dos jogadores que tiverem coragem de usar um personagem nesse modo, também criamos uma Tabela de Classificação exclusiva do Solo Independente, que funciona como as demais.
+                    </p>
+                    <br>
+                    <p>
+                        Para criar um personagem no Solo Independente, selecione a opção Herói Solo na tela de criação de personagem. Você poderá jogar a Campanha e o Modo Aventura normalmente, mas apenas a opção Jogo Particular estará disponível. As Fendas de Desafio podem ser concluídas com um grupo enquanto o modo for de temporada. O Solo Independente é uma jornada solitária, então você não poderá iniciar esse modo quando estiver em grupo nem terá acesso a aspectos multijogador de Diablo III, como a negociação. Renascimento está disponível para Solo Independente.
+                    </p> 
+                </div>   
+                
+                <br>
+                <h2>Limite de Excelência</h2>
+                <img class="excelencia responsive" src="/img/Execelncia.png" alt="foto do modo solo">
+                <p>
+                    Vamos fazer mudanças nos pontos de excelência para que funcionem com o Solo Independente e o tema da Temporada 29. Agora você pode atribuir um total de 800 pontos de excelência ao seu personagem do Solo Independente. Antes, você só podia atribuir 50 para cada atributo nas categorias Núcleo, Defesa, Ataque e Utilidade, mas agora pode atribuir até 200 em cada atributo. Cada categoria só pode ter 200 pontos de excelência.
+                    <br>
+                    <strong>Essa mudança é exclusiva da Temporada 29.</strong>
+                </p>  
+                  
+            </ul>
+
+        </div>
+        <hr>
+        <div id="recompensas">
+            <h1>Recompesas da Temporada</h1>
+            <div>
+                <img class="img-recomp responsive negative" src="/img/Recompensas-29.png" alt="ft-ganhos.png">
+                <h2>Moldura e Mascote</h2>
+            </div>
+        </div>
+        <hr>
+        <div id="leveling">
+            <h1>Leveling 1 - 70</h1>
+            <iframe width="600" height="300" src="https://www.youtube.com/embed/72OAj7kBTk8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </div>
+     
+        <a href="./paginas-secundarias/leveling.html" target="_blank"
+        rel="external"  class="btn-pisca"><i class="icon icon-download-2"></i> Leveling</a>        
+
+
+
     </main>
 
-    <footer>
-        <div></div>
-    </footer>
 </body>
+
 </html>

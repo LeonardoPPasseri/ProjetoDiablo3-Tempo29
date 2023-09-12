@@ -1,19 +1,347 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    /*Deixa a rolagem automatica SUAVE*/
+    text-decoration: none
 }
-body{
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/*padding é a margem dentro da box(conteudo)*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(/img/diablo_3_ceifadorcortado2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* imagem fica em 100% da tela*/
+    background-attachment: fixed;
+    color: hsl(0, 0%, 100%);
+    background-color:#152025 ;
+    
+}
+
+#cabecalho {
+
+    background-color: hsla(349, 41%, 18%, 0.815);
+    display: flex;
+    justify-content: space-between;
+    /* Separa os itens */
+    padding: 5px;
+    width: 99%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0%;
+
+
+    background-color: #992222, #D93030, #E63232,#BF2A2A
+}
+
+img.logo {
+    width: 100px;
+    height: 50px;
 
 }
-header{
-    padding: 50px;
-    background-color: aqua;
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
 }
+
+#cabecalho nav li a {
+    
+    text-shadow: 2px 2px 3px black;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bolder;
+    /* Tira o sublinhado */
+    border-radius: 50px;
+    /* Arredondamento das bordas */
+    transition: 0.2s;
+    /* tempo que leva pra cor mudar no "home detalhes" */
+
+}
+
+#cabecalho nav li a:hover {
+    background-color: rgb(252, 3, 3);
+}
+
+
+
+
 main {
-    padding: 100px;
-    background-color: rgb(255, 81, 0);
+
+    background-color: hsla(349, 41%, 18%, 0.815);
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+
+
 }
-footer{
-    padding: 20px;
-    background-color: rgb(146, 105, 184);
+.ft-temp28{
+    width:900px;
+    height:300px;
+    width: 100%;
+}
+
+div {
+    padding: 40px;
+}
+
+h1 {
+    padding-bottom: 30px;
+    text-shadow: 3px 3px 3px black;
+}
+
+h2 {
+    padding: 25px;
+    font-size: 23px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+h3 {
+
+    font-size: 20px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    padding: 5px;
+    text-align: center;
+
+}
+
+p {
+    font-size: 19px;
+    font-weight: lighter;
+    line-height: 2rem;
+}
+
+span{
+    font-weight: bold;
+    color: gold;
+}
+
+strong{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hover:hover{
+    background-color: rgb(252, 3, 3);
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+    padding: 3px;
+    transition: 0.2s;
+
+}
+/* ================ */
+/*     bonus     */
+
+#solo {
+    padding: 5px;
+    background-color: #3b0b0b;
+    border-radius: 10px;
+}
+.excelencia {
+    max-height: 800px;
+    max-width: 600px;
+    width: 100%;
+}
+
+/* ================ */
+/*     Setlist     */
+
+.fotosets {
+    max-height: 400px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.dif {
+    font-size: 20px;
+
+}
+
+ul.setlist {
+    text-align: justify;
+    list-style-position: inside
+}
+.setlist li {
+    padding: 5px;
+}
+
+ul.setlist li a {
+    font-size: 18px;
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    border-radius: 10px;
+    padding: 6px;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+ul.setlist li a:hover {
+    background-color: rgb(252, 3, 3);
+
+}
+
+/* ================ */
+/*  DIV das builds  */
+
+#builds {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.monge {
+    background-color: hsla(0, 64%, 37%, 0.76);
+    max-width: 200px;
+    height: 200px;
+    text-align: left;
+    width: 100%;
+}
+
+.monge ul li {
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    border-radius: 10px;
+    padding: 4px;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+.dh {
+    background-color:hsla(0, 64%, 46%, 0.781) ;
+    max-width: 200px;
+    height: 200px;
+    text-align: left;
+    width: 100%;
+}
+.dh ul li {
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    border-radius: 10px;
+    padding: 4px;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+.barbaro {
+    background-color:hsla(0, 69%, 52%, 0.773) ;
+    max-width: 200px;
+    height: 200px;
+    text-align: left;
+    width: 100%;
+}
+.barbaro ul li {
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    border-radius: 10px;
+    padding: 4px;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+.necro {
+    background-color: hsla(0, 78%, 55%, 0.774);
+    max-width: 200px;
+    height: 200px;
+    text-align: left;
+    width: 100%;
+    
+}
+.necro ul li {
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    border-radius: 10px;
+   
+    padding: 4px;
+    justify-content: space-around;
+    transition: 0.2s;
+}
+
+#builds ul li:hover {
+    background-color: rgb(252, 3, 3);
+
+}
+
+.conquistas{
+    padding: 5px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* ============== */
+/* Div recompesas */
+
+.img-recomp{
+    width: 800px;
+    height: 400px;
+    width: 100%;
+}
+.img-recomp-gif{
+    width: 400px;
+    height: 200px;
+    width: 50%;
+}
+.img-rec-t16{
+    padding-top: 10px;
+    max-width: 500px;
+    
+    width: 100%;
+}
+
+
+/* ============== */
+/* Div Leveling */
+
+.linkleveling{
+    text-align: center;
+    align-items: center;
+    padding:20px;
+}
+
+@keyframes btn-pisca {
+    60% { opacity: 0.6; }
+    80% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+.btn-pisca {
+  background-color:hsl(0, 97%, 30%);
+  padding: 0.6em 0.8em;
+  display: inline-block;
+  text-decoration: none;
+  color:#ff7300;
+  font-size: 30px;
+  border-radius: 4px; 
+  -webkit-animation: btn-pisca .15s linear infinite;
+  -moz-animation: btn-pisca .15s linear infinite;
+  -ms-animation: btn-pisca .15s linear infinite;
+  -o-animation: btn-pisca .15s linear infinite;
+  animation: btn-pisca .5s linear infinite;
+}
+
+/* ============= */
+/* Atualização de builds */
+
+.att-builds li{
+    color: #ffffff;
+    padding: 5px;
+    text-align: start;
+    font-size: 18px;
+}
+.att-builds li a{
+    color: #FFD119;
+    
+}
+.att-builds li a:hover{
+    border-radius: 15px;
+    padding: 2px;
+    background-color:hsl(0, 98%, 50%);
 }

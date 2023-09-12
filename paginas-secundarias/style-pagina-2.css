@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+body {
+    background-image: url(../img/background-pagina2-1400px.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+
+    background-color:
+    #262526
+    #F2EBDC
+    #BFA095
+    #73605A
+    #F2D0C4;
+}
+
+#cabecalho {
+    /* background-image:linear-gradient(to right,#4b4442d2,#84746ed2,#CEB6A0d2); */
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 99%;
+    margin: 0 auto;
+    position: fixed;
+    top: 0%;
+}
+
+img.logo {
+    width: 100px;
+    height: 50px;
+
+}
+
+#principal{
+
+    background-color: hsla(0, 0%, 0%, 0.904);
+    max-width: 980px;
+    margin: auto;
+    padding: 30px;
+    margin-top: 100px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    
+}
+#principal h1 a:hover{
+    background-color:#1f1a1f ;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+h1 {
+    
+    padding-bottom: 30px;
+    text-shadow: 3px 3px 3px black;
+}
+
+h2 {
+    padding: 25px;
+    font-size: 18px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+h3 {
+
+    font-size: 16px;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    padding: 5px;
+    text-align: left;
+
+}
+
+
+p {
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+.degrade{
+    background-image:linear-gradient(to right,#4b4442d2,#84746ed2,#CEB6A0d2);
+}
+
+.importante{
+    font-weight: bolder;
+    color: darkgoldenrod;
+}
+
+.amarelo{
+    color: yellow;
+}
+.blue{
+    color: rgb(55, 55, 247);
+}
+.darkred{
+    color: darkred;
+    background-color: black;
+    font-size: 20px;
+}
+
+
+
+.lista{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+
+.lista li{
+    padding: 10px;
+}
+
+.box{
+    padding: 20px;
+    display: inline-flex;
+    max-width: 600px;
+    max-height: 600px;
+
+}
+.box h2{
+    padding: 10px;
+}
+.box p {
+    padding: 10px;
+}
+
+.impar{
+    background-color: #73605aec;
+}
+.par{
+    background-color: #262526da;
+}
