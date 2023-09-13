@@ -12,11 +12,11 @@
 /*padding é a margem dentro da box(conteudo)*/
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url(/img/diablo_3_ceifadorcortado2.png);
-    background-repeat: no-repeat;
+    background-image:url(./img/fundo.jpg);
+    background-repeat: repeat;
     background-size: 100%;
     /* imagem fica em 100% da tela*/
-    background-attachment: fixed;
+   /* background-attachment: fixed;*/
     color: hsl(0, 0%, 100%);
     background-color:#152025 ;
     
@@ -75,7 +75,7 @@ img.logo {
 
 main {
 
-    background-color: hsla(349, 41%, 18%, 0.815);
+   /* background-color: hsla(349, 41%, 18%, 0.815); */
     max-width: 1000px;
     margin: auto;
     text-align: center;
@@ -137,6 +137,21 @@ strong{
     padding: 3px;
     transition: 0.2s;
 
+}
+
+.OBS {
+    text-align: left;
+}
+.OBS a {
+    color: #FFD119;
+    
+}
+.OBS a:hover {
+    background-color: rgb(252, 3, 3);
+    box-shadow: 2px 2px 3px black;
+    border-radius: 10px;
+    padding: 3px;
+    transition: 0.2s;
 }
 /* ================ */
 /*     bonus     */
@@ -217,7 +232,7 @@ ul.setlist li a:hover {
 }
 
 .dh {
-    background-color:hsla(0, 64%, 46%, 0.781) ;
+    background-color:hsla(0, 73%, 32%, 0.781) ;
     max-width: 200px;
     height: 200px;
     text-align: left;
@@ -233,7 +248,7 @@ ul.setlist li a:hover {
 }
 
 .barbaro {
-    background-color:hsla(0, 69%, 52%, 0.773) ;
+    background-color:hsla(0, 64%, 41%, 0.773) ;
     max-width: 200px;
     height: 200px;
     text-align: left;
@@ -249,7 +264,7 @@ ul.setlist li a:hover {
 }
 
 .necro {
-    background-color: hsla(0, 78%, 55%, 0.774);
+    background-color: hsla(0, 70%, 36%, 0.774);
     max-width: 200px;
     height: 200px;
     text-align: left;
